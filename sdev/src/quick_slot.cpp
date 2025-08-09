@@ -351,8 +351,10 @@ void hook::quick_slot()
 
     // quickSlot->id check
     util::write_memory((void*)0x4FEF3A, 0x02, 1);
-    // remove delay
+    // remove skill delay
     util::write_memory((void*)0x4FE8F1, 0x90, 2);
+    // remove basic delay
+    util::write_memory((void*)0x4FEB78, 0x90, 6);
     // remove revolver delay
     util::write_memory((void*)0x50819C, 0x90, 6);
 }
