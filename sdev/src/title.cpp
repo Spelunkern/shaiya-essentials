@@ -1,4 +1,5 @@
 #include <map>
+#include <string>
 #include <tuple>
 #include <util/util.h>
 #include "include/main.h"
@@ -15,7 +16,7 @@ namespace title
 {
     using ItemId = uint32_t;
 
-    std::map<ItemId, std::tuple<const char*, HexColor>> items
+    std::map<ItemId, std::tuple<std::string, HexColor>> items
     {
         { 24028, { "Champion of Teos", HexColor::Red } },
         { 24029, { "Gladiator", HexColor::Green } },
@@ -89,13 +90,13 @@ namespace title
         if (it == items.end())
             return;
 
-        auto text = std::get<0>(it->second);
+        auto& text = std::get<0>(it->second);
         auto color = std::to_underlying(std::get<1>(it->second));
 
         if (!user->title.text)
         {
-            user->title.text = CStaticText::Create(text);
-            auto w = CStaticText::GetTextWidth(text);
+            user->title.text = CStaticText::Create(text.c_str());
+            auto w = CStaticText::GetTextWidth(text.c_str());
             user->title.pointX = static_cast<int>(w * 0.5);
         }
 
@@ -185,7 +186,7 @@ void __declspec(naked) naked_0x59F0C3()
     {
         pushad
 
-        push esi
+        push esi // user
         call title::reset
         add esp,0x4
 
