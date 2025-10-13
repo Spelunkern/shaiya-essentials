@@ -111,11 +111,17 @@ namespace title
 
     void reset(CCharacter* user)
     {
-        if (!user->title.text)
-            return;
+        if (user->title.text)
+        {
+            if (user->title.text->texture)
+            {
+                user->title.text->texture->Release();
+                user->title.text->texture = nullptr;
+            }
 
-        user->title.text->texture->Release();
-        user->title.text = nullptr;
+            Static::operator_delete(user->title.text);
+            user->title.text = nullptr;
+        }
     }
 }
 

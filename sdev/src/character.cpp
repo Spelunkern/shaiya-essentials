@@ -21,9 +21,9 @@ namespace character
             {
                 user->title.text->texture->Release();
                 user->title.text->texture = nullptr;
-                Static::operator_delete(user->title.text);
             }
 
+            Static::operator_delete(user->title.text);
             user->title.text = nullptr;
         }
     }
