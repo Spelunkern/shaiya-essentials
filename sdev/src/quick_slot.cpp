@@ -4,9 +4,9 @@
 #include <windows.h>
 #include <util/util.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CQuickSlot.h"
-#include "include/shaiya/include/Unknown.h"
+#include "include/shaiya/CQuickSlot.h"
+#include "include/shaiya/Unknown.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 namespace quick_slot

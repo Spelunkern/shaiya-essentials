@@ -1,4 +1,4 @@
-#include "include/shaiya/include/CNetwork.h"
+#include "CNetwork.h"
 using namespace shaiya;
 
 void CNetwork::Send(void* buf, int len)

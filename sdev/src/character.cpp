@@ -1,9 +1,9 @@
 #include <util/util.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CCharacter.h"
-#include "include/shaiya/include/CStaticText.h"
-#include "include/shaiya/include/CTexture.h"
+#include "include/shaiya/CCharacter.h"
+#include "include/shaiya/CStaticText.h"
+#include "include/shaiya/CTexture.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 namespace character

@@ -1,4 +1,4 @@
-#include "include/shaiya/include/CTexture.h"
+#include "CTexture.h"
 using namespace shaiya;
 
 int CTexture::CreateFromFile(CTexture* texture, const char* path, const char* fileName/*.tga*/, int w, int h)

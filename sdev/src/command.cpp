@@ -5,7 +5,7 @@
 #include <windows.h>
 #include <util/util.h>
 #include "include/main.h"
-#include "include/static.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 void load_advanced_config()

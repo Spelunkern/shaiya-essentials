@@ -3,9 +3,9 @@
 #include <shaiya/include/common/NpcTypes.h>
 #include <shaiya/include/network/game/incoming/0200.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CNetwork.h"
-#include "include/shaiya/include/CPlayerData.h"
+#include "include/shaiya/CNetwork.h"
+#include "include/shaiya/CPlayerData.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 enum HelpMenuButtonIndex

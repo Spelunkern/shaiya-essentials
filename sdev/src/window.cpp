@@ -1,8 +1,8 @@
 #include <util/util.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CQuickSlot.h"
-#include "include/shaiya/include/Unknown.h"
+#include "include/shaiya/CQuickSlot.h"
+#include "include/shaiya/Static.h"
+#include "include/shaiya/Unknown.h"
 using namespace shaiya;
 
 // to-do: name these things a little better.

@@ -1,4 +1,4 @@
-#include "include/shaiya/include/CMonster.h"
+#include "CMonster.h"
 using namespace shaiya;
 
 D3DXMATRIX* CMonster::GetBoneMatrix(CMonster* mob, int boneNumber)

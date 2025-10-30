@@ -7,13 +7,13 @@
 #include <shaiya/include/common/PartyTypes.h>
 #include <shaiya/include/common/Sex.h>
 #include <shaiya/include/common/UserTypes.h>
-#include "include/shaiya/common.h"
-#include "include/shaiya/include/BillingItemInfo.h"
-#include "include/shaiya/include/CItem.h"
-#include "include/shaiya/include/CQuickPotionSlot.h"
-#include "include/shaiya/include/ExcItem.h"
-#include "include/shaiya/include/TargetType.h"
-#include "include/shaiya/include/WindowType.h"
+#include "common.h"
+#include "BillingItemInfo.h"
+#include "CItem.h"
+#include "CQuickPotionSlot.h"
+#include "ExcItem.h"
+#include "TargetType.h"
+#include "WindowType.h"
 
 namespace shaiya
 {

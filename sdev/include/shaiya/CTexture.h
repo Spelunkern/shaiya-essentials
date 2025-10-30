@@ -1,6 +1,6 @@
 #pragma once
 #include <shaiya/include/common.h>
-#include "include/shaiya/common.h"
+#include "common.h"
 
 namespace shaiya
 {

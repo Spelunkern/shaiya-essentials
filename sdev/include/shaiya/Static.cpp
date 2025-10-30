@@ -1,4 +1,4 @@
-#include "include/static.h"
+#include "Static.h"
 using namespace shaiya;
 
 void Static::DrawRect(D3DCOLOR argb, int x, int y, int w, int h)

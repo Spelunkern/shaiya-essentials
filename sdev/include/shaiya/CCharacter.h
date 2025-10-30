@@ -8,7 +8,7 @@
 #include <shaiya/include/common/PartyTypes.h>
 #include <shaiya/include/common/Sex.h>
 #include <shaiya/include/common/UserTypes.h>
-#include "include/shaiya/common.h"
+#include "common.h"
 
 namespace shaiya
 {

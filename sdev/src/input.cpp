@@ -2,8 +2,8 @@
 #include <windows.h>
 #include <util/util.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CSheetStatus.h"
+#include "include/shaiya/CSheetStatus.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 namespace input

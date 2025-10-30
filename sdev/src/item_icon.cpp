@@ -1,10 +1,10 @@
 #include <util/util.h>
 #include <shaiya/include/common/Attribute.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CDataFile.h"
-#include "include/shaiya/include/CItem.h"
-#include "include/shaiya/include/ItemInfo.h"
+#include "include/shaiya/CDataFile.h"
+#include "include/shaiya/CItem.h"
+#include "include/shaiya/ItemInfo.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 void draw_item_icon(void* unknown, CItem* item, long x, long y, D3DCOLOR color)

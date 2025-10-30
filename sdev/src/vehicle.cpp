@@ -4,11 +4,11 @@
 #include <vector>
 #include <util/util.h>
 #include "include/main.h"
-#include "include/static.h"
-#include "include/shaiya/include/CCharacter.h"
-#include "include/shaiya/include/CDataFile.h"
-#include "include/shaiya/include/CMonster.h"
-#include "include/shaiya/include/ItemInfo.h"
+#include "include/shaiya/CCharacter.h"
+#include "include/shaiya/CDataFile.h"
+#include "include/shaiya/CMonster.h"
+#include "include/shaiya/ItemInfo.h"
+#include "include/shaiya/Static.h"
 using namespace shaiya;
 
 namespace vehicle

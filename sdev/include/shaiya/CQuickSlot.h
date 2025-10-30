@@ -1,7 +1,7 @@
 #pragma once
 #include <shaiya/include/common.h>
-#include "include/shaiya/include/CTexture.h"
-#include "include/shaiya/include/CWindow.h"
+#include "CTexture.h"
+#include "CWindow.h"
 
 namespace shaiya
 {

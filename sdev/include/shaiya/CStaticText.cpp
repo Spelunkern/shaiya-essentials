@@ -1,5 +1,5 @@
-#include "include/static.h"
-#include "include/shaiya/include/CStaticText.h"
+#include "CStaticText.h"
+#include "Static.h"
 using namespace shaiya;
 
 SStaticText* CStaticText::Create(const char* text)

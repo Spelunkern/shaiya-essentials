@@ -1,7 +1,6 @@
 #pragma once
 #include <shaiya/include/common.h>
-#include "include/shaiya/common.h"
-#include "include/shaiya/include/CWindow.h"
+#include "CWindow.h"
 
 namespace shaiya
 {

@@ -1,4 +1,4 @@
-#include "include/shaiya/include/CWorldMgr.h"
+#include "CWorldMgr.h"
 using namespace shaiya;
 
 CCharacter* CWorldMgr::FindUser(uint objectId)

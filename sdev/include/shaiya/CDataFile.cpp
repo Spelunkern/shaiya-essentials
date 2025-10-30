@@ -1,7 +1,7 @@
-#include "include/shaiya/include/CDataFile.h"
-#include "include/shaiya/include/ItemInfo.h"
-#include "include/shaiya/include/MobInfo.h"
-#include "include/shaiya/include/SkillInfo.h"
+#include "CDataFile.h"
+#include "ItemInfo.h"
+#include "MobInfo.h"
+#include "SkillInfo.h"
 using namespace shaiya;
 
 ItemInfo* CDataFile::GetItemInfo(int type, int typeId)

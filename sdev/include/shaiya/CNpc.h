@@ -1,7 +1,7 @@
 #pragma once
 #include <shaiya/include/common.h>
 #include <shaiya/include/common/NpcTypes.h>
-#include "include/shaiya/common.h"
+#include "common.h"
 
 namespace shaiya
 {
