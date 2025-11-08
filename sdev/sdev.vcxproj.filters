@@ -101,6 +101,15 @@
     <ClInclude Include="include\shaiya\WindowType.h">
       <Filter>include\shaiya</Filter>
     </ClInclude>
+    <ClInclude Include="include\shaiya\LoginVersion.h">
+      <Filter>include\shaiya</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaiya\Camera.h">
+      <Filter>include\shaiya</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaiya\HealPointType.h">
+      <Filter>include\shaiya</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\dllmain.cpp">

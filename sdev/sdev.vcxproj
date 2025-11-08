@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClInclude Include="include\main.h" />
     <ClInclude Include="include\shaiya\BillingItemInfo.h" />
+    <ClInclude Include="include\shaiya\Camera.h" />
     <ClInclude Include="include\shaiya\CCharacter.h" />
     <ClInclude Include="include\shaiya\CCharacterChat.h" />
     <ClInclude Include="include\shaiya\CDataFile.h" />
@@ -30,8 +31,10 @@
     <ClInclude Include="include\shaiya\CWindow.h" />
     <ClInclude Include="include\shaiya\CWorldMgr.h" />
     <ClInclude Include="include\shaiya\ExcItem.h" />
+    <ClInclude Include="include\shaiya\HealPointType.h" />
     <ClInclude Include="include\shaiya\HexColor.h" />
     <ClInclude Include="include\shaiya\ItemInfo.h" />
+    <ClInclude Include="include\shaiya\LoginVersion.h" />
     <ClInclude Include="include\shaiya\MobInfo.h" />
     <ClInclude Include="include\shaiya\SkillInfo.h" />
     <ClInclude Include="include\shaiya\Static.h" />
